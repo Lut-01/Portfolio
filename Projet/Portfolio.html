@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="Portfolio.css">
+</head>
+<body>
+
+  <div class="slider">
+    <img src="img/thumb_binaire-520x245.png" class="slider-background">
+  </div>
+
+  <header>
+    <h1>Mon Portfolio</h1>
+    <nav>
+      <a href="#profil">Profil</a>
+      <a href="#projets">Projets</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- SECTION PROFIL -->
+  <section id="profil">
+    <h2>Profil</h2>
+    <hr>
+    <div class="section">
+      <div class="boxed">
+        <div class="flex">
+          <div class="photo">
+            <img src="img/photodeprofil.jpg" alt="Photo de profil">
+          </div>
+          <div class="w60">
+            <p>
+               Je m'appelle Lucas Lalot--Pinard, je suis un étudiant de terminale avec les spécialités Numérique et Sciences Informatiques et Sciences Économiques et Sociales.<br>
+              Je suis un élève motivé, déterminé et j'aime travailler en équipe, je me passionne depuis le collège pour la programmation informatiques, où j'ai débuté des projets sur scratch, j'ai appris à coder et concevoir des logiques de jeux vidéo.<br>
+              Puis au lycé j'ai réellement commencé à apprendre la programmation informatique et je me suis également lancer en autodidacque en apprenant comment me servir de moteur de jeux vidéo tel Godot.<br>
+              Mes diplômes:<br>
+              2023: Brevet<br>
+              2022: Le PSCI<br>
+              Permis et Bac en cours d'acquisition<br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- COMPÉTENCES -->
+    <div class="section dark">
+      <div class="boxed text-center">
+        <h1>Découvrez mes compétences</h1>
+        <div class="flex gap20">
+          <div class="w25 skill"><img src="img/image_html-removebg-preview.png"><h3>HTML</h3></div>
+          <div class="w25 skill"><img src="img/image_js-removebg-preview.png"><h3>JavaScript</h3></div>
+          <div class="w25 skill"><img src="img/image_css-removebg-preview.png"><h3>CSS</h3></div>
+          <div class="w25 skill"><img src="img/image_python-removebg-preview.png"><h3>Python</h3></div>
+          <div class="w25 skill"><img src="img/Godot logo 1.png"><h3>Godot</h3></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION PROJETS -->
+  <section id="projets">
+    <h2>Mes Projets</h2>
+
+    <!-- PROJET SCRATCH -->
+    <div class="section">
+      <div class="boxed">
+        <div class="flex">
+          <div class="w60">
+            <div class="photo_projet">
+              <img id="imgScratch" src="img/Photo scratch m vs m.jpeg" alt="Magic vs Monster">
+            </div>
+
+            <div id="modalScratch" class="modal">
+              <span class="close closeScratch">&times;</span>
+              <img class="modal-img" id="modalImgScratch">
+            </div>
+
+            <br>
+            <h3>Magic vs Monster</h3>
+            <p>
+              Il s'agit de mon premier projet fait au collège sur Scratch.<br>
+             Il m'as fallut environ un mois pour le réaliser entre les graphismes, le code et les logiques de jeux.
+             J'ai beaucoup apprécier réaliser ce projet car j'ai pu du début à la fin voir comment réaliser un jeux vidéo, 
+             et surtout j'ai pu rendre réel ce que j'imaginais même si j'ai pu emprunté quelque modèle dejà exisant pour le graphisme par exemple.<br>
+             <br>
+              Lien : <a href="https://scratch.mit.edu/projects/939234289" target="_blank">https://scratch.mit.edu/projects/939234289</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROJET BREAKOUT -->
+    <div class="section">
+      <div class="boxed">
+        <div class="flex">
+          <div class="w60">
+            <div class="photo_projet">
+              <img id="imgBreakout" src="img/Photo breakout.jpeg" alt="Breakout">
+            </div>
+
+            <div id="modalBreakout" class="modal">
+              <span class="close closeBreakout">&times;</span>
+              <img class="modal-img" id="modalImgBreakout">
+            </div>
+
+            <br>
+            <h3>Breakout</h3>
+            <p>
+             Il s'agit ici d'un projet pour mes études en Numérique Scienses et informatique dans lequel on devait créer un jeux vidéo
+             à l'aide d'une librairie de code fournit par le professeur la p5js.<br>
+             Nous devions recréer le jeux video Breakout sortit en 1976 qui est une variante de pong.
+             De plus nous devions rendre dans un certain temps un resultat afin de créer le jeux par étape.<br>
+             Cela ma permis de découvrir les deadlines et de surtout bien gérer son temps.      </p>
+             <br>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- PROJET Space shooter -->
+    <div class="section">
+      <div class="boxed">
+        <div class="flex">
+          <div class="w60">
+            <div class="photo_projet">
+              <img id="imgSpace_shooter" src="img/Image Godot.png" alt="Space_shooter">
+            </div>
+
+            <div id="modalSpace_shooter" class="modal">
+              <span class="close closeSpace_shooter">&times;</span>
+              <img class="modal-img" id="modalImgSpace_shooter">
+            </div>
+
+            <br>
+            <h3>Space shooter</h3>
+            <p>
+            Pour ce projet je voulais commencer à réellement créer sur moteur de jeux vidéo et
+            j'ai donc suivis différent tuto qui m'on aidé à comprendre godot qui est très utilisé
+            pour les projets en 2D alors que unity est plus utile pour un jeux en 3d.<br>
+            J'ai donc pu faire un petit jeu qui reprend les traits d'un space shooter, avec un petit vaiseau qui doit esquiver des astéroïdes.<br>
+
+            </p>
+             <br>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- SECTION CONTACT -->
+  <section id="contact" class="section contact">
+    <div class="boxed">
+      <h2>Contacte-moi</h2>
+      <div class="flex gap20">
+        <div class="w50 skill">
+          <span class="material-icons icon">mail</span>
+          <span class="label">E-mail</span>
+          <span class="value">lucaspinard26@gmail.com</span>
+        </div>
+        <div class="w50 skill">
+          <span class="material-icons icon">call</span>
+          <span class="label">Téléphone</span>
+          <span class="value">06 12 34 56 78</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="Code.js"></script>
+</body>
+</html>
